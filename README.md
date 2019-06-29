@@ -1,22 +1,24 @@
 # super-resolution
-A collection of super-resolution models & algorithms
+A collection of super-resolution algorithms
 
-Detail introduction of each model is in corresponding sub-folds.
+Reserved for personal use.
 
 ## Requirement
 - python3.6
 - numpy
 - tensorflow 1.8.0
+- pytorch 1.0.0
 
 ## Models
-- [VDSR](https://github.com/icpm/super-resolution/tree/master/VDSR)
-- [EDSR](https://github.com/icpm/super-resolution/tree/master/EDSR)
-- [DCRN](https://github.com/icpm/super-resolution/tree/master/DRCN)
-- [SubPixelCNN](https://github.com/icpm/super-resolution/tree/master/SubPixelCNN)
-- [SRCNN](https://github.com/icpm/super-resolution/tree/master/SRCNN)
-- [FSRCNN](https://github.com/icpm/super-resolution/tree/master/FSRCNN)
+- [SRCNN](https://github.com/wyannn/SR-methods-for-fun/tree/master/srcnn)
+- [FSRCNN](https://github.com/wyannn/SR-methods-for-fun/tree/master/fsrcnn)
+- [VDSR](https://github.com/wyannn/SR-methods-for-fun/tree/master/vdsr)
+- [ESPCN](https://github.com/wyannn/SR-methods-for-fun/tree/master/espcn)
+- [DCRN](https://github.com/wyannn/SR-methods-for-fun/tree/master/drcn)
+- [EDSR](https://github.com/wyannn/SR-methods-for-fun/tree/master/edsr)
+- [DBPN](https://github.com/wyannn/SR-methods-for-fun/tree/master/dbpn)
+- [MEMNET](https://github.com/wyannn/SR-methods-for-fun/tree/master/memnet)
 - [SRGAN](https://github.com/icpm/super-resolution/tree/master/SRGAN)
-- [DBPN](https://github.com/icpm/super-resolution/tree/master/DBPN)
 
 ## Usage
 train:
