@@ -6,9 +6,7 @@ import os
 import numpy as np
 from PIL import Image
 
-
 test = 'test'
-
 
 pic_list = os.listdir(test)
 
