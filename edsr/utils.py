@@ -15,7 +15,7 @@ def read_data(path, Config):
         label_g = np.reshape(label_g, [label_g.shape[0], Config.label_size, Config.label_size, Config.c_dim])
         return data_g, label_g
 
-            
+
 def resBlock(x,channels=64, kernel_size=[3,3], scale=1):
 
         tmp = slim.conv2d(x,channels,kernel_size,activation_fn=None)

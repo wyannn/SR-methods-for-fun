@@ -29,7 +29,6 @@ class EDSR(object):
         self.images = tf.placeholder(tf.float32, [self.batch_size, self.image_size, self.image_size, self.c_dim], name='images')
         self.labels = tf.placeholder(tf.float32, [self.batch_size, self.label_size, self.label_size, self.c_dim], name='labels')
 
-        #srcnn
         self.pred = self.model()
         self.loss = tf.reduce_mean(tf.losses.absolute_difference(self.labels, self.pred))
         
